@@ -21,5 +21,13 @@ public class HelloController {
         return  "This is bye method";
     }
 
+<<<<<<< HEAD
+=======
+    @RequestMapping("/test")
+    public  String sayTest(){
+        return  "This is test method";
+    }
+
+>>>>>>> 0ec20d6 (Initial commit)
 
 }
